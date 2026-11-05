@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(201, 202, 139);
+}
+nav{
+    text-align: right;
+}
+header {
+    background-color: #1dc16c;
+    padding: 20px 60px;
+}
