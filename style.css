@@ -1,10 +1,109 @@
-body{
-    background-color: rgb(201, 202, 139);
+.formulario-cadastro {
+    width: 50%;
 }
-nav{
-    text-align: right;
+nav.navbar {
+    background-color: black !important;
 }
-header {
-    background-color: #1dc16c;
-    padding: 20px 60px;
+.btn-danger {
+    background-color:  rgb(206 211 104)  !important;
+    border-color: rgb(206 211 104) !important
+}
+
+.btn-danger:hover {
+    background-color:  rgb(206 211 104)  !important;
+    border-color:  rgb(206 211 104)  !important;
+}
+
+.btn-warning {
+    background-color: rgb(206 211 104) !important;
+    border-color: rgb(206 211 104)  !important;
+    color: black !important;
+}
+
+.btn-warning:hover {
+    background-color: rgb(206 211 104) !important;
+    border-color: rgb(206 211 104) !important;
+    color: black !important;
+}
+body {
+    background-color: #b4bda1;
+    text-align: center;
+}
+
+.home-page {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.home-hero {
+    background: linear-gradient(135deg, #b4bda1, #b4bda1)
+}
+
+.catalog-grid {
+    display: block;
+}
+
+.catalog-grid article {
+    padding: 0.5rem 0;
+}
+
+.catalog-grid h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.catalog-grid p {
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.catalog-grid p:first-of-type {
+    color: rgb(206 211 104);
+    font-weight: 600;
+}
+
+body {
+    background-color: #b4bda1 !important;
+}
+
+.tabela-produtos {
+    width: 100%;
+    background-color: #f5f6ef;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border: 2px solid #146c43;
+    text-align: center;
+}
+
+.tabela-produtos thead th {
+    background-color: #68765a !important;
+    color: white !important;
+    padding: 15px;
+}
+
+.tabela-produtos tbody td {
+    background-color: #f5f6ef;
+    color: #222;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.tabela-produtos tbody tr:hover td {
+    background-color: #e1e9d9;
+}
+
+.table-responsive {
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b !important;
+    border-color: #bb2d3b !important;
 }
