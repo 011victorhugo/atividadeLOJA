@@ -58,7 +58,7 @@ body {
 }
 
 .catalog-grid p:first-of-type {
-    color: rgb(206 211 104);
+    color: black;
     font-weight: 600;
 }
 
